@@ -3,14 +3,14 @@
  *
  * The ministry portal is currently served on its historical domain:
  *
- *   https://bca.astoria-gouv.org             ← current production domain
+ *   https://anrd.gouv.aor             ← current production domain
  *
  * A move to a longer institutional domain is planned:
  *
- *   https://bca.astoria-gouv.org             ← future institutional domain
+ *   https://anrd.gouv.aor             ← future institutional domain
  *
  * Nothing in this file forces that migration: `main` still resolves to
- * `bca.astoria-gouv.org` so the live portal keeps working, and the routing layers
+ * `anrd.gouv.aor` so the live portal keeps working, and the routing layers
  * (see `getDomainConfig`) already derive every absolute URL from this single
  * place, so switching the canonical domain later only requires updating the
  * `main` value (and DNS/nginx aliases, which are out of scope of the app).
@@ -26,15 +26,15 @@ export interface DomainConfig {
 
 const DOMAINS: Record<Environment, DomainConfig> = {
   production: {
-    main: 'bca.astoria-gouv.org',
-    studios: 'studios.astoria-gouv.org',
-    sso: 'sso.astoria-gouv.org',
+    main: 'anrd.gouv.aor',
+    studios: 'studios.gouv.aor',
+    sso: 'sso.gouv.aor',
     protocol: 'https',
   },
   localhost: {
-    main: 'bca.astoria-gouv.localhost',
-    studios: 'studios.astoria-gouv.localhost',
-    sso: 'sso.astoria-gouv.localhost',
+    main: 'anrd.gouv.localhost',
+    studios: 'studios.gouv.localhost',
+    sso: 'sso.gouv.localhost',
     protocol: 'http',
   },
 }

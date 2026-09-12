@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/codegouvaor/bce/server/src/config"
-	"github.com/codegouvaor/bce/server/src/interfaces"
+	"github.com/codegouvaor/anrd/server/src/config"
+	"github.com/codegouvaor/anrd/server/src/interfaces"
 	"gorm.io/gorm"
 )
 

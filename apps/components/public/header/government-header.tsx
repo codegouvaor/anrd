@@ -14,6 +14,7 @@ import {
   pageAnchors,
   primaryNavigation,
   searchPath,
+  statusUrl,
   type NavigationSection,
 } from "@/lib/site-structure";
 import { useAuth } from "@/context/AuthContext";
@@ -40,29 +41,31 @@ function collectChildHrefs(section: NavigationSection): string[] {
 }
 
 /**
- * Government Header of the Ministry of Infrastructure and Digital Affairs of
- * the Republic of Astoria.
+ * Government Header of the Autorité nationale des noms de domaine d'Astoria
+ * (ANRD) — the national authority that governs and administers the `.aor`
+ * namespace.
  *
  * Main navigation — the permanent information architecture of the portal,
- * organised around the institutional perimeter of the ministry rather than
- * generic website categories:
+ * organised around the institutional perimeter of the registry authority
+ * rather than generic website categories:
  *
- *   Infrastructures  → Construire : normes, réseaux, patrimoine, grands projets
- *   Logement         → Loger      : habitat, construction, rénovation, logement public
- *   Énergie          → Alimenter  : électricité, réseaux, production, transition
- *   Mobilité         → Relier     : routier, ferroviaire, transports, aérien & maritime
- *   Numérique        → Numériser  : connectivité, infrastructures, services publics, données
- *   Territoires      → Aménager   : aménagement, eau, environnement, résilience
- *   Le Ministère     → Incarner   : missions, administration, politiques, international
+ *   L'ANRD                   → Incarner  : présentation, organisation, transparence, actualités
+ *   Le `.aor`                → Comprendre : le domaine national, enregistrement, identité nationale, évolution
+ *   Noms de domaine          → Agir      : enregistrer, gérer, transférer, fin de vie
+ *   Registre                 → Opérer    : fonctionnement, recherche, infrastructure, données
+ *   Bureaux d'enregistrement → Encadrer  : bureaux accrédités, devenir bureau, opérations, conformité
+ *   Règles & politiques      → Cadrer    : politiques `.aor`, tarification, litiges, cadre
+ *   Ressources               → Outiller  : documentation, données, publications, assistance
  *
  * Each entry opens an institutional mega-menu (leader band with the entry
- * description and its main action, plus four theme columns of four links).
+ * description and its main action, plus four section columns of four links).
  *
  * The whole navigation is configuration-driven (`primaryNavigation` in
- * `@/lib/site-structure`): the seven entries open the panels, and nothing else
- * competes with them in the header. The State's own infrastructure (government
- * buildings, government cloud, telecommunications…) is deliberately not one of
- * the portal's policy domains and has no dedicated entry in the header.
+ * `@/lib/site-structure`): the seven themes open the panels, and nothing else
+ * competes with them in the header. `Rechercher` and `Statut` are transversal
+ * functions of the platform (global search, government status platform) and
+ * deliberately live outside the primary navigation — they are not counted
+ * among the 112 navigation entries.
  *
  * The header behaviour (mega-menu opening on click, close on outside click and
  * `Escape`, keyboard support, mobile drawer) is provided by the ADS runtime
@@ -122,12 +125,27 @@ export function GovernmentHeader() {
   // Auth state for conditional account UI
   const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
 
-  // Quick-access items — “MyGouv” is a transversal action: it points to the
-  // SSO identity layer when the user is not authenticated (the ministry portal
-  // never duplicates MyGouv's identity functionality), and is replaced by the
-  // account menu (with its personal entries) once the user is authenticated.
+  // Quick-access items — `Statut` and `MyGouv` are transversal actions:
+  // - “Statut” points to the government status platform (status.gouv.aor),
+  //   the single place where the availability of the State's services is
+  //   reported; the ANRD portal only links to it, never duplicates it.
+  // - “MyGouv” points to the SSO identity layer when the user is not
+  //   authenticated (the portal never duplicates MyGouv's identity
+  //   functionality), and is replaced by the account menu (with its personal
+  //   entries) once the user is authenticated.
   const quickAccessItems = React.useMemo(() => {
-    const items: HeaderProps.QuickAccessItem[] = [];
+    const items: HeaderProps.QuickAccessItem[] = [
+      {
+        iconId: "fr-icon-checkbox-circle-line",
+        text: t("header.status"),
+        linkProps: {
+          href: statusUrl,
+          target: "_blank",
+          rel: "noopener noreferrer",
+          title: t("header.status"),
+        },
+      },
+    ];
 
     if (!isAuthenticated || isAuthLoading) {
       items.push({

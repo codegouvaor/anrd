@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/codegouvaor/bce/server/src/interfaces"
-	"github.com/codegouvaor/bce/server/src/models"
-	"github.com/codegouvaor/bce/server/src/utils"
+	"github.com/codegouvaor/anrd/server/src/interfaces"
+	"github.com/codegouvaor/anrd/server/src/models"
+	"github.com/codegouvaor/anrd/server/src/utils"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

@@ -1,0 +1,541 @@
+{
+  "brand": {
+    "republicName": "Republic of Astoria"
+  },
+  "meta": {
+    "defaultTitle": "ANRD — Astoria National Domain Registry Authority",
+    "suffix": "ANRD",
+    "description": "Official website of the Astoria National Domain Registry Authority (ANRD), responsible for the administration, governance and stability of the national top-level domain .aor.",
+    "searchPlaceholder": "Search"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "skipToFooter": "Skip to footer",
+    "backToTop": {
+      "ariaLabel": "Back to top of page"
+    },
+    "cookiePopup": {
+      "ariaLabel": "Cookie management",
+      "title": "Cookies",
+      "message": "This portal uses cookies to operate and to measure its audience. You can accept, refuse or manage your preferences.",
+      "accept": "Accept all",
+      "decline": "Decline all",
+      "manage": "Manage my preferences"
+    }
+  },
+  "header": {
+    "serviceTitle": "ANRD",
+    "serviceTagline": "Astoria National Domain Registry Authority",
+    "homeTitle": "Home — ANRD",
+    "myGouv": "MyGouv",
+    "status": "Status",
+    "accountLabel": "My account",
+    "logoutLink": "Sign out",
+    "account": {
+      "profile": "Profile",
+      "settings": "Settings"
+    }
+  },
+  "nav": {
+    "primary": {
+      "lAnrd": "The ANRD",
+      "leAor": "The .aor",
+      "nomsDeDomaine": "Domain names",
+      "registre": "Registry",
+      "bureauxEnregistrement": "Registrars",
+      "reglesPolitiques": "Rules & policies",
+      "ressources": "Resources"
+    },
+    "panel": {
+      "lAnrd": {
+        "title": "The Astoria National Domain Registry Authority",
+        "text": "The ANRD is the national authority responsible for the administration, governance and stability of the national top-level domain .aor.",
+        "allLink": "All about the ANRD",
+        "presentation": {
+          "title": "Presentation",
+          "lAnrd": "The ANRD",
+          "mission": "Our mission",
+          "role": "Our role",
+          "histoire": "History"
+        },
+        "organisation": {
+          "title": "Organisation",
+          "gouvernance": "Governance",
+          "direction": "Management",
+          "services": "Services",
+          "contacts": "Contacts"
+        },
+        "transparence": {
+          "title": "Transparency",
+          "rapports": "Reports",
+          "decisions": "Decisions",
+          "donneesPubliques": "Public data",
+          "marchesPublics": "Public procurement"
+        },
+        "actualites": {
+          "title": "News",
+          "actualites": "News",
+          "communiques": "Press releases",
+          "annonces": "Announcements",
+          "agenda": "Agenda"
+        }
+      },
+      "leAor": {
+        "title": "The national .aor domain",
+        "text": "The national top-level domain .aor is the namespace of the Republic of Astoria. The ANRD ensures its governance and operation.",
+        "allLink": "All about the .aor",
+        "presentation": {
+          "title": "Presentation",
+          "questCeQue": "What is .aor?",
+          "domaineNational": "The national domain",
+          "fonctionnement": "How it works",
+          "chiffresCles": "Key figures"
+        },
+        "enregistrement": {
+          "title": "Registration",
+          "quiPeutEnregistrer": "Who can register?",
+          "choisirUnNom": "Choosing a name",
+          "conditions": "Conditions",
+          "ouEnregistrer": "Where to register?"
+        },
+        "identiteNationale": {
+          "title": "National identity",
+          "usages": "Uses of the .aor",
+          "domainesPublics": "Public domains",
+          "domainesPrives": "Private domains",
+          "sousDomaines": "Subdomains"
+        },
+        "evolution": {
+          "title": "Evolution",
+          "histoire": "History of the .aor",
+          "evolutionsDuRegistre": "Registry developments",
+          "nouvellesPolitiques": "New policies",
+          "projets": "Projects"
+        }
+      },
+      "nomsDeDomaine": {
+        "title": ".aor domain names",
+        "text": "Register, manage, transfer and follow the life cycle of your .aor domain names with accredited registrars.",
+        "allLink": "All about domain names",
+        "enregistrer": {
+          "title": "Register",
+          "rechercherUnDomaine": "Search a domain",
+          "choisirUnBureau": "Choose a registrar",
+          "enregistrer": "Register",
+          "tarifs": "Pricing"
+        },
+        "gerer": {
+          "title": "Manage",
+          "renouveler": "Renew",
+          "modifier": "Modify",
+          "changerDeTitulaire": "Change of holder",
+          "gererLesContacts": "Manage contacts"
+        },
+        "transferer": {
+          "title": "Transfer",
+          "transfertEntrant": "Incoming transfer",
+          "transfertSortant": "Outgoing transfer",
+          "codeDAutorisation": "Authorisation code",
+          "procedure": "Procedure"
+        },
+        "finDeVie": {
+          "title": "End of life",
+          "expiration": "Expiration",
+          "suppression": "Deletion",
+          "restauration": "Restoration",
+          "liberation": "Release"
+        }
+      },
+      "registre": {
+        "title": "The national .aor registry",
+        "text": "The ANRD operates the national registry: the sovereign infrastructure that administers the .aor zone, its DNS, its security and its data.",
+        "allLink": "All about the registry",
+        "fonctionnement": {
+          "title": "How it works",
+          "leRegistre": "The registry",
+          "architecture": "Architecture",
+          "zoneAor": "The .aor zone",
+          "delegation": "Delegation"
+        },
+        "recherche": {
+          "title": "Lookup",
+          "rechercheDeDomaine": "Domain lookup",
+          "rdap": "RDAP",
+          "statut": "Status",
+          "informationsPubliques": "Public information"
+        },
+        "infrastructure": {
+          "title": "Infrastructure",
+          "dns": "DNS",
+          "dnssec": "DNSSEC",
+          "serveurs": "Servers",
+          "resilience": "Resilience"
+        },
+        "donnees": {
+          "title": "Data",
+          "statistiques": "Statistics",
+          "openData": "Open Data",
+          "rapports": "Reports",
+          "indicateurs": "Indicators"
+        }
+      },
+      "bureauxEnregistrement": {
+        "title": "Registrars",
+        "text": "The registrars accredited by the ANRD form the ecosystem through which holders obtain and manage their .aor domain names.",
+        "allLink": "All about registrars",
+        "bureauxAccredites": {
+          "title": "Accredited registrars",
+          "annuaire": "Directory",
+          "rechercherUnBureau": "Search a registrar",
+          "conditions": "Conditions",
+          "obligations": "Obligations"
+        },
+        "devenirBureau": {
+          "title": "Become a registrar",
+          "conditions": "Conditions",
+          "accreditation": "Accreditation",
+          "candidature": "Application",
+          "contrat": "Agreement"
+        },
+        "operations": {
+          "title": "Operations",
+          "epp": "EPP",
+          "rdap": "RDAP",
+          "api": "API",
+          "sandbox": "Sandbox"
+        },
+        "conformite": {
+          "title": "Compliance",
+          "obligations": "Obligations",
+          "securite": "Security",
+          "donnees": "Data",
+          "controles": "Controls"
+        }
+      },
+      "reglesPolitiques": {
+        "title": "Rules & policies",
+        "text": "The regulatory and institutional framework of the national domain: registration policies, pricing, disputes and applicable texts.",
+        "allLink": "All rules & policies",
+        "politiquesAor": {
+          "title": ".aor policies",
+          "politiqueEnregistrement": "Registration policy",
+          "politiqueTransfert": "Transfer policy",
+          "politiqueRenouvellement": "Renewal policy",
+          "politiqueSuppression": "Deletion policy"
+        },
+        "tarification": {
+          "title": "Pricing",
+          "tarifsDuRegistre": "Registry prices",
+          "frais": "Fees",
+          "revisions": "Revisions",
+          "historique": "History"
+        },
+        "litiges": {
+          "title": "Disputes",
+          "resolutionDesLitiges": "Dispute resolution",
+          "procedures": "Procedures",
+          "decisions": "Decisions",
+          "recours": "Appeals"
+        },
+        "cadre": {
+          "title": "Framework",
+          "textesApplicables": "Applicable texts",
+          "protectionDesDonnees": "Data protection",
+          "conformite": "Compliance",
+          "versionsDesPolitiques": "Policy versions"
+        }
+      },
+      "ressources": {
+        "title": "Resources",
+        "text": "Guides, data, publications and support for holders, registrars and developers of the .aor domain.",
+        "allLink": "All resources",
+        "documentation": {
+          "title": "Documentation",
+          "guideAor": "The .aor guide",
+          "guideTitulaires": "Holder guide",
+          "guideBureaux": "Registrar guide",
+          "documentationTechnique": "Technical documentation"
+        },
+        "donnees": {
+          "title": "Data",
+          "statistiques": "Statistics",
+          "openData": "Open Data",
+          "telechargements": "Downloads",
+          "apiPubliques": "Public APIs"
+        },
+        "publications": {
+          "title": "Publications",
+          "rapports": "Reports",
+          "etudes": "Studies",
+          "communiques": "Press releases",
+          "archives": "Archives"
+        },
+        "assistance": {
+          "title": "Support",
+          "questionsFrequentes": "Frequently asked questions",
+          "support": "Support",
+          "signalerUnAbus": "Report abuse",
+          "contact": "Contact"
+        }
+      }
+    }
+  },
+  "footer": {
+    "columns": {
+      "lAnrd": "The ANRD",
+      "leAor": "The .aor",
+      "nomsDeDomaine": "Domain names",
+      "registre": "Registry",
+      "bureauxEnregistrement": "Registrars",
+      "reglesPolitiques": "Rules & policies",
+      "ressources": "Resources"
+    },
+    "contentDescription": "The official portal of the Astoria National Domain Registry Authority (ANRD), the authority of the national top-level domain .aor.",
+    "bottom": {
+      "contact": "Contact",
+      "planDuPortail": "Sitemap",
+      "documentsOpposables": "Authoritative documents",
+      "privacy": "Privacy",
+      "cookies": "Cookie management",
+      "publications": "Official publications"
+    },
+    "license": "Unless otherwise stated, the content of this portal is published under the <link>open licence</link>."
+  },
+  "home": {
+    "metaTitle": "ANRD — Astoria National Domain Registry Authority",
+    "hero": {
+      "kicker": "Republic of Astoria — National Domain Registry Authority",
+      "title": "The Astoria National Domain Registry Authority",
+      "lead": "The ANRD administers the national .aor domain, ensures the stability of its registry and establishes the rules that govern its use.",
+      "badge": ".aor — Astoria's national top-level domain",
+      "ctaLookup": "Search a domain name",
+      "ctaExplore": "Discover the .aor"
+    },
+    "aor": {
+      "kicker": "The national domain",
+      "title": "The national domain of Astoria",
+      "lead": ".aor is the Republic of Astoria's national top-level domain: the namespace on which institutions, organisations and citizens express their presence in the Astorian digital space.",
+      "items": {
+        "what": { "title": "What is .aor?", "text": "The national extension that identifies the actors of the Astorian digital space." },
+        "role": { "title": "Its role", "text": "A mark of belonging to the national domain, for institutions and organisations alike." },
+        "operation": { "title": "How it works", "text": "The ANRD administers the .aor zone; registrars distribute it." },
+        "importance": { "title": "Its importance", "text": "A stable and sovereign national identification infrastructure." }
+      },
+      "stats": {
+        "label": "The .aor at a glance",
+        "note": "These indicators will be published as soon as the registry data is available.",
+        "items": {
+          "domains": { "label": "Registered domains" },
+          "registrars": { "label": "Accredited registrars" },
+          "availability": { "label": "Registry availability" },
+          "dnssec": { "label": "Signed .aor zone" }
+        }
+      }
+    },
+    "registry": {
+      "kicker": "The national registry",
+      "title": "A sovereign infrastructure serving the .aor",
+      "lead": "The ANRD is the authority that operates and governs the national registry. Registrars are the interface between holders and the registry.",
+      "intro": "From the holder to the name system, every actor of the namespace is linked to the national registry:",
+      "roles": {
+        "holder": "Holder",
+        "registrar": "Registrar",
+        "anrd": "ANRD",
+        "registry": ".aor registry",
+        "dns": "DNS / DNSSEC"
+      },
+      "caption": "The ANRD governs the namespace; registrars support the holders."
+    },
+    "lookup": {
+      "kicker": "Search",
+      "title": "Search a domain name",
+      "lead": "Check whether a name is available in the .aor domain. The search will be connected to the national registry once it goes live.",
+      "inputLabel": "Domain name to check",
+      "placeholder": "myorganisation.aor",
+      "submit": "Search",
+      "result": {
+        "note": "Real-time lookup of the national registry is not connected yet.",
+        "availability": "Availability to be checked with a registrar",
+        "states": "Once live, the registry will return one of these states:",
+        "available": "Available",
+        "taken": "Registered"
+      },
+      "cta": "Understand registry information"
+    },
+    "steps": {
+      "kicker": "User journey",
+      "title": "Register a .aor",
+      "lead": "The ANRD administers the registry; it does not sell domains. Registration always happens through an accredited registrar.",
+      "items": {
+        "choose": { "title": "Choose", "text": "Find a name that suits your activity or your organisation." },
+        "check": { "title": "Check", "text": "Check the availability of the name in the .aor domain." },
+        "register": { "title": "Register", "text": "Go through a registrar accredited by the ANRD." },
+        "manage": { "title": "Manage", "text": "Renew and administer your domain with ease." }
+      },
+      "cta": "Read the registration guide"
+    },
+    "registrars": {
+      "kicker": "Registrars",
+      "title": "The ANRD administers the registry. Registrars support the holders.",
+      "lead": "Accredited registrars form the ecosystem through which holders obtain and manage their .aor domain names.",
+      "items": {
+        "find": { "title": "Find a registrar", "text": "The directory of accredited registrars." },
+        "become": { "title": "Become a registrar", "text": "The conditions and the accreditation procedure." },
+        "accreditation": { "title": "Understand accreditation", "text": "The framework of trust between the ANRD and registrars." },
+        "obligations": { "title": "Registrar obligations", "text": "The technical and service commitments of registrars." }
+      },
+      "cta": "See the registrars"
+    },
+    "governance": {
+      "kicker": "Governance & rules",
+      "title": "A national domain governed by transparent rules",
+      "lead": "The use of the .aor is governed by public policies, versioned and binding, adopted by the ANRD.",
+      "items": {
+        "registration": { "title": "Registration policy", "text": "Who can register a .aor and under which conditions." },
+        "transfer": { "title": "Transfer policy", "text": "Change registrar with continuity." },
+        "renewal": { "title": "Renewal policy", "text": "Keep your domain active over time." },
+        "deletion": { "title": "Deletion policy", "text": "The end-of-life cycle of a domain name." },
+        "disputes": { "title": "Dispute resolution", "text": "The procedures for settling domain name disputes." },
+        "data": { "title": "Data protection", "text": "The management of holder and registry data." }
+      },
+      "cta": "See the .aor policies"
+    },
+    "infrastructure": {
+      "kicker": "Infrastructure & security",
+      "title": "A critical and resilient national infrastructure",
+      "lead": "The .aor registry relies on a robust, signed and monitored DNS infrastructure. The service status is published continuously on the government status platform.",
+      "items": {
+        "dns": { "title": "DNS", "text": "The resolution of .aor domain names." },
+        "dnssec": { "title": "DNSSEC", "text": "Cryptographic authentication of DNS responses." },
+        "rdap": { "title": "RDAP", "text": "Structured access to registry information." },
+        "resilience": { "title": "Resilience", "text": "The continuity and availability of the national service." }
+      },
+      "statusLabel": "Service status",
+      "statusValue": "Operational",
+      "statusLink": "See the details on status.gouv.aor"
+    },
+    "transparency": {
+      "kicker": "Transparency & data",
+      "title": "A registry open about its data",
+      "lead": "The ANRD publishes the information and data that describe the evolution of the national namespace.",
+      "items": {
+        "statistics": { "title": ".aor statistics", "text": "The number of registered domains and its evolution." },
+        "reports": { "title": "Reports", "text": "The activity reports and publications of the ANRD." },
+        "decisions": { "title": "Decisions", "text": "The public decisions of the authority." },
+        "openData": { "title": "Open data", "text": "The registry datasets as open data." }
+      },
+      "cta": "See the .aor data"
+    },
+    "institution": {
+      "kicker": "The ANRD",
+      "title": "Administer today. Prepare the namespace of tomorrow.",
+      "lead": "The Astoria National Domain Registry Authority watches over the national domain: it administers it, guarantees its operation and prepares its future.",
+      "items": {
+        "administer": { "title": "Administer .aor", "text": "Ensure the day-to-day operation of the national domain." },
+        "operate": { "title": "Guarantee the registry", "text": "Operate the national registry and its .aor zone." },
+        "stability": { "title": "Ensure stability", "text": "Guarantee the continuity of the national identification service." },
+        "policies": { "title": "Evolve the policies", "text": "Adapt the rules of the namespace to the country's needs." },
+        "develop": { "title": "Develop the namespace", "text": "Support the growth of the Astorian digital space." }
+      },
+      "ctaDiscover": "Discover the ANRD",
+      "ctaPolicies": "See the policies",
+      "ctaContact": "Contact the authority"
+    }
+  },
+  "stayInTouch": {
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Get the news of the national .aor domain: registry developments, new policies and ANRD announcements.",
+      "label": "Your email address",
+      "placeholder": "firstname.lastname@example.aor",
+      "submit": "Subscribe",
+      "success": "Your subscription has been recorded.",
+      "hint": "You can unsubscribe at any time.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "follow": {
+      "title": "Follow the ANRD",
+      "items": {
+        "x": "Follow the ANRD on X",
+        "facebook": "Follow the ANRD on Facebook",
+        "linkedin": "Follow the ANRD on LinkedIn",
+        "instagram": "Follow the ANRD on Instagram",
+        "threads": "Follow the ANRD on Threads"
+      }
+    }
+  },
+  "pages": {
+    "sitemap": {
+      "meta": {
+        "title": "Sitemap",
+        "description": "All the pages of the portal of the Astoria National Domain Registry Authority."
+      },
+      "hero": {
+        "kicker": "Sitemap",
+        "title": "All the pages of the portal",
+        "lead": "The ANRD portal is organised in seven themes. Each theme brings together four sections of four pages."
+      },
+      "sections": {
+        "portail": {
+          "kicker": "Navigation",
+          "title": "The seven themes of the portal",
+          "lead": "The navigation architecture of the ANRD portal."
+        },
+        "transversal": {
+          "kicker": "Transversal pages",
+          "title": "Practical information",
+          "lead": "The transversal pages of the portal: contact and authoritative documents."
+        },
+        "links": {
+          "contact": "Contact",
+          "accessibility": "Accessibility",
+          "privacy": "Privacy",
+          "terms": "Terms and conditions",
+          "cookies": "Cookie management",
+          "publications": "Official publications",
+          "documentsOpposables": "Authoritative documents"
+        }
+      }
+    },
+    "search": {
+      "meta": {
+        "title": "Search",
+        "description": "Global search of the portal of the Astoria National Domain Registry Authority."
+      },
+      "hero": {
+        "kicker": "Search",
+        "title": "Search the ANRD portal",
+        "lead": "Search the pages of the portal, documentation, policies, .aor domains, registrars and publications."
+      },
+      "form": {
+        "label": "Search",
+        "placeholder": "A content, a .aor domain, a registrar…"
+      },
+      "results": {
+        "kicker": "Results",
+        "title": "Search results",
+        "leadQuery": "Results for “{query}”",
+        "empty": {
+          "title": "No results yet",
+          "text": "The portal search index is being deployed. Search will cover:",
+          "scopes": {
+            "pages": "Portal pages",
+            "documentation": "Documentation",
+            "policies": "Policies",
+            "domains": ".aor domains",
+            "registrars": "Registrars",
+            "publications": "Publications"
+          }
+        }
+      },
+      "help": {
+        "kicker": "Help",
+        "title": "What to search for?",
+        "lead": "Search helps you find content on the portal. You can also browse the sitemap or use the main navigation to explore a theme.",
+        "links": {
+          "sitemap": "Browse the sitemap"
+        }
+      }
+    }
+  }
+}

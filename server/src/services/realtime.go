@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	redisclient "github.com/codegouvaor/bce/server/internal/redis"
-	"github.com/codegouvaor/bce/server/src/config"
-	"github.com/codegouvaor/bce/server/src/interfaces"
+	redisclient "github.com/codegouvaor/anrd/server/internal/redis"
+	"github.com/codegouvaor/anrd/server/src/config"
+	"github.com/codegouvaor/anrd/server/src/interfaces"
 )
 
 type InMemoryEventBus struct {

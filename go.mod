@@ -1,4 +1,4 @@
-module github.com/codegouvaor/bce
+module github.com/codegouvaor/anrd
 
 go 1.25.5
 
